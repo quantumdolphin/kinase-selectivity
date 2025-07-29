@@ -1,10 +1,9 @@
 # Kinase Inhibitor Selectivity Metrics
 
-## Session Context
+## Background
 
 * Explored selectivity metrics for kinase inhibitors, focusing on the **Gini coefficient** and alternatives (Partition Index, Entropy, Window Score, Ranking Score).
-* Used active recall, stepwise Socratic questioning, and live Python examples for practical understanding.
-
+  
 ---
 
 ## Key Concepts Discussed
