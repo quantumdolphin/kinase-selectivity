@@ -1,4 +1,4 @@
-# Chat Summary: Kinase Inhibitor Selectivity Metrics
+# Kinase Inhibitor Selectivity Metrics
 
 ## Session Context
 
