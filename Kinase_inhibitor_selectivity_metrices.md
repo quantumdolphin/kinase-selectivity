@@ -68,7 +68,6 @@
 *Journal of Medicinal Chemistry*, 50(25), 5773–5779.  
 Introduced the Gini coefficient for kinase selectivity, using inhibition data (e.g., percent inhibition at a single concentration). Demonstrated the method using a panel of ~85 kinases and 40 inhibitors. Noted that Gini works best for large panels (N > 50).
 
-
 ---
 
 ### 2. Cheng, A. C., Eksterowicz, J., Geuns‑Meyer, S., & Sun, Y. (2010).  
