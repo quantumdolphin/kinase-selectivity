@@ -63,15 +63,16 @@
 **Next steps:**
 ## 🔬 Key References: Selectivity Metrics for Kinase Inhibitors
 
-### 1. Graczyk, P. P. (2007).  
-**“Gini Coefficient: A New Way To Express Selectivity of Kinase Inhibitors against a Family of Kinases.”**  
+### 1. Graczyk, P. P. (2007).
+**Gini Coefficient: A New Way To Express Selectivity of Kinase Inhibitors against a Family of Kinases.**  
 *Journal of Medicinal Chemistry*, 50(25), 5773–5779.  
-Introduced the Gini coefficient for kinase selectivity, with calculations using inhibition data (e.g., percent inhibition at a single concentration). Demonstrated behavior across ~85 kinases and ~40 inhibitors, showing that **a Gini > ~0.75 reflects strong selectivity**. Noted limitations with small panels (~<50 kinases) but robustness with larger panels :contentReference[oaicite:1]{index=1}.
+Introduced the Gini coefficient for kinase selectivity, using inhibition data (e.g., percent inhibition at a single concentration). Demonstrated the method using a panel of ~85 kinases and 40 inhibitors. Noted that Gini works best for large panels (N > 50).
+
 
 ---
 
 ### 2. Cheng, A. C., Eksterowicz, J., Geuns‑Meyer, S., & Sun, Y. (2010).  
-**“Analysis of Kinase Inhibitor Selectivity using a Thermodynamics‑Based Partition Index.”**  
+**Analysis of Kinase Inhibitor Selectivity using a Thermodynamics‑Based Partition Index.**  
 *Journal of Medicinal Chemistry*, 53(11), 4502–4510.  
 Presents the **Partition Index**, a thermodynamics-derived selectivity metric based on association/dissociation constants (Kₐ, Kᵢ, K_d). Compares the binding strength to a reference (on‑target) versus off‑targets—in contrast to distribution-based metrics like Gini :contentReference[oaicite:2]{index=2}.
 
