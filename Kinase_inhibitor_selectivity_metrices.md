@@ -61,8 +61,39 @@
 ---
 
 **Next steps:**
-You can further explore code for random, moderate, or pan-inhibition scenarios, or experiment with other selectivity metrics on your own kinase screening data.
+## 🔬 Key References: Selectivity Metrics for Kinase Inhibitors
+
+### 1. Graczyk, P. P. (2007).  
+**“Gini Coefficient: A New Way To Express Selectivity of Kinase Inhibitors against a Family of Kinases.”**  
+*Journal of Medicinal Chemistry*, 50(25), 5773–5779.  
+Introduced the Gini coefficient for kinase selectivity, with calculations using inhibition data (e.g., percent inhibition at a single concentration). Demonstrated behavior across ~85 kinases and ~40 inhibitors, showing that **a Gini > ~0.75 reflects strong selectivity**. Noted limitations with small panels (~<50 kinases) but robustness with larger panels :contentReference[oaicite:1]{index=1}.
 
 ---
 
-Let me know if you want to expand this or need code for other selectivity metrics!
+### 2. Cheng, A. C., Eksterowicz, J., Geuns‑Meyer, S., & Sun, Y. (2010).  
+**“Analysis of Kinase Inhibitor Selectivity using a Thermodynamics‑Based Partition Index.”**  
+*Journal of Medicinal Chemistry*, 53(11), 4502–4510.  
+Presents the **Partition Index**, a thermodynamics-derived selectivity metric based on association/dissociation constants (Kₐ, Kᵢ, K_d). Compares the binding strength to a reference (on‑target) versus off‑targets—in contrast to distribution-based metrics like Gini :contentReference[oaicite:2]{index=2}.
+
+---
+
+### 3. Bosc, N., et al. (2017).  
+**“The use of novel selectivity metrics in kinase research.”**  
+*BMC Bioinformatics*, 18, Article number: 1413.  
+Compares established selectivity metrics (standard score, Gini, entropy, partition index) with **new metrics Window Score (WS)** and **Ranking Score (RS)** on large kinase profiling datasets (~300–440 kinases). Provides guidance on strengths, limitations, and when to choose each method :contentReference[oaicite:3]{index=3}.
+
+---
+
+### 📊 Comparison Table of Metrics
+
+| Metric                | Core Idea                                          | Ideal for Panel Size         |
+|-----------------------|-----------------------------------------------------|------------------------------|
+| **Gini Coefficient**  | Measures inequality in inhibition distribution     | Large panels (>50 kinases)  |
+| Partition Index       | Thermodynamic ratio of binding to a reference target| Any size—but requires IC₅₀/K_d data |
+| Entropy Score         | Statistical disorder across affinities              | Medium-to-large panels       |
+| Window Score (WS)     | Fraction within top-affinity window                 | Small to large panels, flexible |
+| Ranking Score (RS)    | Difference between top and nth best target affinity | Similar to WS                |
+
+---
+
+
